@@ -1,0 +1,13 @@
+# Security policies
+# Each line represents a forbidden pattern or word
+password
+secret
+key
+access_token
+internal
+admin
+sensitive
+login
+credentials
+sql injection
+xss

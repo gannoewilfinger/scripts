@@ -1,22 +1,20 @@
-# scripts
+# Security Policy Enforcer
 
-Small utility scripts I reach for regularly.
+A Python script to enforce security policies by scanning content for forbidden words or patterns.
+
+## Features
+- Load security policies from a text file
+- Enforce policies against provided content
+- Log warnings and errors for easy auditing
 
 ## Usage
+1. Create a `security_policies.txt` file with one policy per line.
+2. Run the script with content to be checked.
 
-Each script is standalone. Run with `python3 <script>.py` or `bash <script>.sh`.
-
-
-## Getting Started
-
-See individual files for usage details.
-
-
-## License
-
-MIT
-
+## Example
+```
+This is a test content with sensitive data like passwords and keys.
+```
 
 ## License
-
-MIT
+This project is licensed under the MIT License.
