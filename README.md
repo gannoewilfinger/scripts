@@ -1,20 +1,11 @@
-# Security Policy Enforcer
+# scripts
 
-A Python script to enforce security policies by scanning content for forbidden words or patterns.
+This repository contains various utility scripts for automation, deployment, and system management. The scripts are written in Python and are designed to be used in conjunction with other technologies like Scala, Terraform, and Clojure.
 
 ## Features
-- Load security policies from a text file
-- Enforce policies against provided content
-- Log warnings and errors for easy auditing
-
-## Usage
-1. Create a `security_policies.txt` file with one policy per line.
-2. Run the script with content to be checked.
-
-## Example
-```
-This is a test content with sensitive data like passwords and keys.
-```
+- Automation of repetitive tasks
+- Integration with Terraform for infrastructure management
+- Utilities for working with Scala and Clojure projects
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
