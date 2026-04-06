@@ -1,0 +1,31 @@
+{
+  "project": "scripts",
+  "tech_stack": ["Scala", "Terraform", "Clojure"],
+  "features": [
+    {
+      "name": "Feature A",
+      "description": "Description for Feature A",
+      "tech": ["Scala", "Terraform"]
+    },
+    {
+      "name": "Feature B",
+      "description": "Description for Feature B",
+      "tech": ["Clojure"]
+    },
+    {
+      "name": "Feature C",
+      "description": "Description for Feature C",
+      "tech": ["Terraform"]
+    }
+  ],
+  "timeline": {
+    "Q1": ["Feature A", "Feature B"],
+    "Q2": ["Feature C"]
+  },
+  "generated_on": "2023-11-05",
+  "organized_features": {
+    "Scala": ["Feature A"],
+    "Terraform": ["Feature A", "Feature C"],
+    "Clojure": ["Feature B"]
+  }
+}
