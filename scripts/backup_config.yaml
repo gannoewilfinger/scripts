@@ -1,0 +1,13 @@
+backup:
+  terraform_state:
+    source: /path/to/terraform/state
+    backup_dir: /path/to/backup/terraform
+    schedule: "0 2 * * *"  # Daily at 2 AM
+  clojure_project:
+    source: /path/to/clojure/project
+    backup_dir: /path/to/backup/clojure
+    schedule: "0 3 * * 0"  # Weekly on Sunday at 3 AM
+  logs:
+    retention_days: 7
+    compress: true
+    log_dir: /var/log/backup
