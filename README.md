@@ -1,24 +1,24 @@
-# Project Roadmap Generator
+# Retry Utils
 
-This Python script generates a project roadmap based on provided features, technology stack, and timeline.
+A Python library providing retry logic with exponential backoff for handling transient failures.
 
 ## Features
-- Organizes features by technology stack
-- Generates a JSON roadmap file
-- Provides a visual timeline
+- Exponential backoff retry strategy
+- Configurable number of retries
+- Delay between retries
+- Detailed logging
 
 ## Usage
-Run the script with:
-```bash
-python3 roadmap_generator.py
-```
+Example usage is shown in the `retry_utils.py` file.
 
-## Example Output
-The script generates a `roadmap.json` file with organized features and timeline details.
+## Installation
+This library is not published on PyPI, but you can use it directly from the source code.
 
-## Requirements
-- Python 3.x
-- json and datetime modules (standard library)
+## License
+MIT License
 
 ## Contributing
-Contributions are welcome! Please follow the standard GitHub workflow for pull requests.
+Contributions are welcome! Please open an issue or submit a pull request.
+
+## Author
+Gary Williams
